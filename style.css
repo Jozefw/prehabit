@@ -1,0 +1,36 @@
+body{
+	padding-top: 5px;
+}
+
+ui-gmap-google-map#googleMapContainer {
+    width: 400px;
+    height: 400px;
+}
+
+
+#maps{
+	width: 500px;
+	height: 400px;
+}
+
+/*jumbotron style*/
+.jumbotron p{
+
+}
+
+.jumbotron.page-header{
+    background-color: #65B4F9;
+    color: snow;
+
+}
+
+.container.jumbo{
+	margin-top: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+	body{
+		margin-top: 190px;
+	}
+}
+

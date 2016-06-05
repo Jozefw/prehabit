@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "mine",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jozefw/Habbited.git"
+  },
+  "author": "Jozef",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jozefw/Habbited/issues"
+  },
+  "homepage": "https://github.com/Jozefw/Habbited#readme"
+}

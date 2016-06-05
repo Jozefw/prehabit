@@ -1,0 +1,13 @@
+<br>
+<form name="getMapLocationForm" novalidate ng-controller="getMapController">
+    <input type="button" btn btn-default value="Search" ng-click="getMapLocation()">
+    <div id="CoordinatesPlace">
+    </div>
+</form>
+<map name="usersMap">
+</map>
+<h3>Google map here!</h3>
+<div>
+    <ui-gmap-google-map center='map.center' zoom='map.zoom' id="googleMapContainer"></ui-gmap-google-map>
+    <div id="maps"></div>
+</div>

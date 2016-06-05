@@ -1,0 +1,26 @@
+	<br>
+	<form name="destinationsForm" id="userDestination" novalidate ng-controller="destinationController">
+			<fieldset>
+				<legend>Destination</legend>
+				<div class="form-group">
+					<label for="destinationPlace">Destination Place:</label>
+					<input type="text" id="destinationPlace" name="destinationPlace" class="form-control" ng-model="destinationPlace"><br>
+				</div>
+				<div class="form-group">
+					<label for="streetDestination">Street Destination:</label>
+					<input type="text" id="streetDestination" class="form-control" name="destinationStreet" ng-model="destinationStreet">
+				</div>
+				<div class="form-group">
+					<label for="cityDestination">City Destination:</label>
+					<input type="text" id="cityDestination" class="form-control" name="destinationCity" ng-model="destinationCity">
+				</div>
+				<div class="form-group">
+					<label for="stateDestination">State Destination</label>
+					<input type="text" id="stateDestination" class="form-control" name="destinationState" ng-model="destinationState">
+				</div>
+				<input type="button" value="Submit" class="btn btn-default" ng-click="createDestination()">
+				<input type="button" value="Clear" class="btn btn-default" ng-click="resetForm()">
+			</fieldset>
+
+		<br>
+		</form>

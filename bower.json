@@ -1,0 +1,23 @@
+{
+  "name": "Project",
+  "homepage": "https://github.com/Jozefw/Habbited",
+  "authors": [
+    "Jozef"
+  ],
+  "description": "",
+  "main": "app.js",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-google-maps": "^2.3.2"
+  }
+}
